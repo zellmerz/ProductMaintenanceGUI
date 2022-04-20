@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRPG200Lab3TechSupport", "CRPG200Lab3TechSupport\CRPG200Lab3TechSupport.csproj", "{DBF5DF10-53D1-4381-9818-5573166C0148}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C8EA1FC-025D-419D-A35D-BD83E2FF279D} = {8C8EA1FC-025D-419D-A35D-BD83E2FF279D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechSupportData", "TechSupportData\TechSupportData.csproj", "{8C8EA1FC-025D-419D-A35D-BD83E2FF279D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF5DF10-53D1-4381-9818-5573166C0148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF5DF10-53D1-4381-9818-5573166C0148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF5DF10-53D1-4381-9818-5573166C0148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF5DF10-53D1-4381-9818-5573166C0148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8EA1FC-025D-419D-A35D-BD83E2FF279D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8EA1FC-025D-419D-A35D-BD83E2FF279D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8EA1FC-025D-419D-A35D-BD83E2FF279D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8EA1FC-025D-419D-A35D-BD83E2FF279D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95357016-EBF6-480E-9E1F-DB3F640FC725}
+	EndGlobalSection
+EndGlobal
